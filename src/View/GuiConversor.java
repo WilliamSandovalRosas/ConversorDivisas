@@ -87,14 +87,14 @@ public class GuiConversor extends JFrame implements FocusListener{
 		JPanel panel = new JPanel();
 		panel.setToolTipText("");
 		panel.setForeground(new Color(204, 204, 204));
-		panel.setBounds(-12, 0, 1166, 461);
+		panel.setBounds(0, 0, 1160, 461);
 		getContentPane().add(panel);
 		panel.setLayout(null);
 		
 		JPanel panel_1 = new JPanel();
 		panel_1.setToolTipText("");
 		panel_1.setBackground(new Color(0, 0, 102));
-		panel_1.setBounds(10, 0, 1156, 37);
+		panel_1.setBounds(0, 0, 1156, 37);
 		panel.add(panel_1);
 		panel_1.setLayout(new FlowLayout(FlowLayout.CENTER, 5, 5));
 		
@@ -120,21 +120,21 @@ public class GuiConversor extends JFrame implements FocusListener{
 		lblMoneda.setHorizontalAlignment(SwingConstants.CENTER);
 		lblMoneda.setForeground(new Color(0, 0, 102));
 		lblMoneda.setFont(new Font("Roboto Medium", Font.PLAIN, 16));
-		lblMoneda.setBounds(276, 11, 180, 35);
+		lblMoneda.setBounds(353, 11, 180, 35);
 		panel_2.add(lblMoneda);
 		
 		JLabel lblNewLabel_1_2 = new JLabel("Tasa de Cambio");
 		lblNewLabel_1_2.setHorizontalAlignment(SwingConstants.CENTER);
 		lblNewLabel_1_2.setForeground(new Color(0, 0, 102));
 		lblNewLabel_1_2.setFont(new Font("Roboto Medium", Font.PLAIN, 16));
-		lblNewLabel_1_2.setBounds(512, 11, 180, 35);
+		lblNewLabel_1_2.setBounds(604, 11, 180, 35);
 		panel_2.add(lblNewLabel_1_2);
 		
 		JLabel lblNewLabel_1_1 = new JLabel("Divisa");
 		lblNewLabel_1_1.setHorizontalAlignment(SwingConstants.CENTER);
 		lblNewLabel_1_1.setForeground(new Color(0, 0, 102));
 		lblNewLabel_1_1.setFont(new Font("Roboto Medium", Font.PLAIN, 16));
-		lblNewLabel_1_1.setBounds(788, 11, 180, 35);
+		lblNewLabel_1_1.setBounds(861, 11, 180, 35);
 		panel_2.add(lblNewLabel_1_1);
 		
 		txtCantidad = new JTextField();
@@ -193,7 +193,7 @@ public class GuiConversor extends JFrame implements FocusListener{
 		comboBox.setModel(new DefaultComboBoxModel(new String[] {"COP", "MXN", "PEN", "ARS", "BRL", "USD", "CAD", "UE"}));
 		comboBox.setRenderer(myComboBox);
 		comboBox.setFont(new Font("Roboto Light", Font.BOLD, 18));
-		comboBox.setBounds(313, 57, 170, 41);
+		comboBox.setBounds(353, 57, 170, 41);
 		panel_2.add(comboBox);
 				
 		
@@ -201,7 +201,7 @@ public class GuiConversor extends JFrame implements FocusListener{
 		textCambio = new JTextField();
 		textCambio.setToolTipText("Ingrese valor de la tasa de cambio");
 		textCambio.setBorder(null);
-		textCambio.setBounds(522, 57, 180, 41);
+		textCambio.setBounds(600, 57, 180, 41);
 		panel_2.add(textCambio);
 		textCambio.setText("Tasa de Cambio");
 		textCambio.setHorizontalAlignment(SwingConstants.CENTER);
@@ -219,7 +219,7 @@ public class GuiConversor extends JFrame implements FocusListener{
 		
 		JPanel panel_3 = new JPanel();
 		panel_3.setBorder(new TitledBorder(null, "JPanel title", TitledBorder.LEADING, TitledBorder.TOP, null, null));
-		panel_3.setBounds(782, 36, 229, 69);
+		panel_3.setBounds(860, 36, 229, 69);
 		panel_2.add(panel_3);
 		panel_3.setLayout(null);
 		
