@@ -1,6 +1,5 @@
 package View;
 
-import java.awt.EventQueue;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import java.awt.Color;
@@ -47,6 +46,7 @@ public class GuiConversor extends JFrame implements FocusListener{
 	ComboBoxRender myComboBox;
 	
 
+	/*
 	public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
@@ -60,7 +60,7 @@ public class GuiConversor extends JFrame implements FocusListener{
 			}
 		});
 	}
-
+*/
 //Create the frame
 	
 	
@@ -335,7 +335,7 @@ public class GuiConversor extends JFrame implements FocusListener{
 		panel.add(txtrVerCotizacinDe);
 		
 		JLabel lblNewLabel_1 = new JLabel("New label");
-		lblNewLabel_1.setIcon(new ImageIcon("C:\\Users\\Developer\\eclipse-workspace\\PrimerConversor\\src\\images\\Conversor.JPG"));
+		lblNewLabel_1.setIcon(new ImageIcon("C:\\Users\\Developer\\eclipse-workspace\\PrimerConversor\\src\\images\\Conversor2.JPG"));
 		lblNewLabel_1.setBounds(808, 167, 219, 178);
 		panel.add(lblNewLabel_1);
 		
@@ -346,12 +346,13 @@ public class GuiConversor extends JFrame implements FocusListener{
 			lblUsuario.setVerticalAlignment(javax.swing.SwingConstants.CENTER);
 			lblUsuario.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
 			lblUsuario.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
+			JLabel lblCOP = new JLabel("COP");
+			lblCOP.setIcon(new ImageIcon("C:\\Users\\Developer\\eclipse-workspace\\PrimerConversor\\src\\images\\reducidas\\alemania(1).png"));
+			lblCOP.setBounds(647, 275, 144, 46);
+			panel.add(lblCOP);
 		 */
 		
-		JLabel lblCOP = new JLabel("COP");
-		lblCOP.setIcon(new ImageIcon("C:\\Users\\Developer\\eclipse-workspace\\PrimerConversor\\src\\images\\reducidas\\alemania(1).png"));
-		//lblCOP.setBounds(647, 275, 144, 46);
-		//panel.add(lblCOP);
+		
 		
 		
 				

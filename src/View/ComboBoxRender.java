@@ -1,8 +1,6 @@
 package View;
 
-import java.awt.Color;
 import java.awt.Component;
-import java.util.EnumMap;
 import java.util.Hashtable;
 
 import javax.swing.ImageIcon;
@@ -10,7 +8,7 @@ import javax.swing.JLabel;
 import javax.swing.JList;
 import javax.swing.ListCellRenderer;
 
-public class ComboBoxRender extends JLabel implements ListCellRenderer{
+public class ComboBoxRender extends JLabel implements ListCellRenderer<Object>{
 	
 	
 	/**

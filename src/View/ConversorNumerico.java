@@ -105,7 +105,7 @@ public class ConversorNumerico extends JFrame {
 		textDescription1.setEditable(false);
 		textDescription1.setFont(new Font("Roboto Medium", Font.PLAIN, 14));
 		textDescription1.setBounds(43, 73, 501, 45);
-		textDescription1.setText("Ingrese el valor deseado e indique la base de su sistema Numérico. el sistema\nindicará su equivalencia en sistema decimal.");
+		textDescription1.setText("Ingrese el valor deseado e indique la base de su sistema Numérico.\nEl resultado indicará su equivalencia en sistema decimal.");
 		panel_toDecimal.add(textDescription1);
 		
 		JLabel lblNumberInput = new JLabel("Ingrese el número");
@@ -163,7 +163,7 @@ public class ConversorNumerico extends JFrame {
 		textCreditos.setBackground(new Color(240, 240, 240));
 		textCreditos.setForeground(new Color(0, 0, 153));
 		textCreditos.setFont(new Font("Roboto Light", Font.PLAIN, 12));
-		textCreditos.setText("By William Sandoval Rosas");
+		textCreditos.setText("By William Sandoval Rosas, Bogotá-Colombia.");
 		textCreditos.setBounds(43, 372, 400, 22);
 		panel_toDecimal.add(textCreditos);
 		
@@ -188,7 +188,7 @@ public class ConversorNumerico extends JFrame {
 		textDescription2.setBackground(new Color(240, 240, 240));
 		textDescription2.setFont(new Font("Roboto Medium", Font.PLAIN, 14));
 		textDescription2.setBounds(63, 67, 451, 38);
-		textDescription2.setText("Ingrese un número en base 10, el sistema mostrará su equivalencia en\nbase 2, 5 , 8, 16.");
+		textDescription2.setText("Ingrese un número en base 10, el sistema mostrará su equivalencia en\nbase 2, 5 , 8,... 16, según indique.");
 		panel_fromDecimal.add(textDescription2);
 		
 		JLabel lblInputDecimal = new JLabel("Ingrese el número");
